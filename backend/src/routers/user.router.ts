@@ -31,6 +31,14 @@ router.post("/login", asyncHandler(
      else{
        res.status(HTTP_BAD_REQUEST).send("Username or password is invalid!");
      }
+  //   let user : any =  {
+  //     "id": "1234567890",
+  //     "email": "john@gmail.com",
+  //     "name": "John Doe",
+  //     "address": "123 Main Street, City, Country",
+  //     "token" : '1234'
+  // }
+  res.send(user)
   
   }
 ))
@@ -80,3 +88,4 @@ router.post('/register', asyncHandler(
   
 
   export default router;
+

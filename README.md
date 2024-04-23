@@ -230,3 +230,13 @@
     6.  Run ncu -u in the backend folder
     7.  Run npm install
     8.  Run npm start
+
+
+
+
+
+
+    #node 16
+
+
+    npm run start

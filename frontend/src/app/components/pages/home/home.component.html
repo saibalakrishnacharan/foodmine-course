@@ -1,5 +1,4 @@
 <app-search></app-search>
-<app-tags></app-tags>
 <app-not-found
 [visible]="!foods || !foods.length"
 resetLinkText="Reset Search">
@@ -23,11 +22,6 @@ resetLinkText="Reset Search">
             <span *ngFor="let origin of food.origins">
               {{origin}}
             </span>
-          </div>
-
-          <div class="cook-time">
-            <span>🕒</span>
-            {{food.cookTime}}
           </div>
         </div>
 
