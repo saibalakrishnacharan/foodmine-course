@@ -31,7 +31,6 @@ router.post("/login", asyncHandler(
      else{
        res.status(HTTP_BAD_REQUEST).send("Username or password is invalid!");
      }
-  
   }
 ))
   
@@ -80,3 +79,4 @@ router.post('/register', asyncHandler(
   
 
   export default router;
+

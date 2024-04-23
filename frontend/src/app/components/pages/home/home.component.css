@@ -71,13 +71,6 @@ li a img{
   padding: 0 0.5rem;
   margin-top: 0.2rem;
 }
-
-.cook-time{
-  font-size: 0.9rem;
-  flex: 3;
-  text-align: right;
-}
-
 .price{
   position: absolute;
   bottom: 0;
