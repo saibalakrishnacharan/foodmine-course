@@ -18,7 +18,6 @@ export class HeaderComponent implements OnInit {
     })
 
     userService.userObservable.subscribe((newUser) => {
-      console.log("2",newUser)
       this.user = newUser;
     })
    }
@@ -31,7 +30,6 @@ export class HeaderComponent implements OnInit {
   }
 
   isAuth(){
-    console.log("2",this.user)
     return this.user.token;
   }
 }
